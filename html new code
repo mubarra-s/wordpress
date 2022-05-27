@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>university website</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+</style>
+</head>
+<body>
+
+<section class="Header">
+  <nav>
+    <a href="index.html"><img src="image/66.png"></a>
+    <div class="nav-links">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">course</a></li>
+      
+      </ul>
+
+    </div>
+    
+  </nav>
+  <div class="text-box">
+    <h1>world biggest university</h1>
+    <p>A university is an institution of higher education and research which awards academic degrees in severa.<br> both undergraduate and postgraduate programs in different schools or faculties of learning.</p>
+    <a href="" class="hero-btn">visit to us know more </a>
+    
+  </div>
+
+
+
+</section>
+
+
+<section class="Course">
+  <h1>courses we  offer</h1>
+  <p>A university is an institution of higher education and research</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>intermediate</h3>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914</p>
+      
+
+    </div>
+    
+  <div class="course-col">
+      <h3>Degree</h3>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914</p>
+    </div>
+    <div class="course-col">
+      <h3>post graduate</h3>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914</p>
+    </div>
+  </div>
+
+
+
+</section>
+<section class="campus">
+  <h1>Our global campus</h1
+  <p>The University of London was established by Royal Charter in 1836 for the public benefit and is recognised globally. Throughout our long</p>  
+  <div class="row">
+    <div class="campus-col">
+      <img src="image/im.jpg">
+      <div class="layer">
+      <h3>LONDON</h3>
+        
+
+      </div>
+      
+
+    </div>
+     <div class="campus-col">
+      <img src="image/ww.jpg">
+      <div class="layer">
+      <h3>Top</h3>
+        
+
+      </div>
+       <div class="campus-col">
+      <img src="image/ii.jpg" alt="helo">
+      <div class="layer">
+      <h3>new york</h3>
+    </div>
+        
+
+      </div>
+      
+
+    
+
+
+
+</section>
+<section class="facilitiest">
+<h3>Our facilities</h3>
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from</p> 
+<div class="row">
+
+<div class="facilitiest-col">
+  <img src="image//yyyy.jpg">
+  <h3>World class Library</h3>
+  <p>Libraries are places of information. When most people think "library" they think More than just books, libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere, whether online, in print or in person</p>
+  
+</div> 
+<div class="facilitiest-col">
+  <img src="image//lay.jpg">
+  <h3>paly gruond</h3>
+  <p>Libraries are places of information. When most people think "library" they think More than just books, libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere, whether online, in print or in person</p>
+  </div>
+  <div class="facilitiest-col">
+  <img src="image//Cafe.jpg">
+  <h3>University Cafe</h3>
+  <p>Libraries are places of information. When most people think "library" they think More than just books, libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere, whether online, in print or in person</p>
+</div>
+
+</div>
+
+  
+
+
+</section>
+<section class="testimonial">
+  <h1>What our student says</h1>
+  <p>libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere.</p>
+  <div class="row">
+    <div class="testimonial-col">
+      <img src="image/test.jpg">
+      <div>
+        <p>Libraries are places of information. When most people think "library" they think More than just books, libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere, whether online, in print or in</p>
+        <h3>Afnan</h3>
+       <div class="rateing-wrap">
+        
+           <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+         
+       </div>
+      
+
+    </div>
+     <div class="testimonial-col">
+      <img src="image/girl.jpg">
+      <div>
+        <p>Libraries are places of information. When most people think "library" they think More than just books, libraries are places of information, offering people free access to a wealth of information that they often can't find elsewhere, whether online, in print or in</p>
+        <h3>scott</h3>
+        <div class="rateing-wrap">
+        
+           <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+         
+       </div>
+      </div>
+             </div>
+</div>
+  
+
+
+</section>
+<section class="end">
+  <h1>Enroll for our various online courses<br> any where from the world</h1>
+  <a href="" class="hero-btn">Contact us</a>
+  
+</section>
+<section class="footer-container">
+  <div class="footer">
+    <div class="footer-heading footer-1">
+      <h2>About Us</h2>
+      <a href="#">Blog</a>
+      <a href="#">DEmo</a>
+      <a href="#">Addmitions</a>
+      <a href="#">contact us</a>
+      
+
+    </div>
+    <div class="foorter-heading footer-2">
+      
+    <a href="#">Blog</a>
+      <a href="#">DEmo</a>
+      <a href="#">Addmitions</a>
+      <a href="#">contact us</a>
+</div>
+    
+  </div>
+   <div class="foorter-heading footer-2">
+      
+    <a href="#">Blog</a>
+      <a href="#">DEmo</a>
+      <a href="#">Addmitions</a>
+      <a href="#">contact us</a>
+</div>
+  
+
+
+
+</section>
+ 
+</body>
+</html>
+
