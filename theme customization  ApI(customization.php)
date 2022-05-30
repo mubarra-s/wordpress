@@ -1,0 +1,39 @@
+<?php
+
+function mytheme_customize_register( $wp_customize ) {
+
+    $wp_customize->add_section( 'metabox_id' , array(
+        'title'      => __( 'Metabox', 'wp' ),
+        'priority'   => 30,
+    ) );
+
+    $wp_customize->add_setting( 'themeslug_text_setting_id', array(
+        'default' => 'Lorem Ipsum',
+        'sanitize_callback' => 'sanitize_text_field',
+    ) );
+
+    $wp_customize->add_control( 'themeslug_text_setting_id', array(
+        'type' => 'text',
+        'section' => 'metabox_id', // Add a default or your own section
+        'label' => __( 'Custom Text' ),
+        'description' => __( 'This is a custom text box.' ),
+    ) );
+
+    $wp_customize->add_section( 'copyright_txt_section' , array(
+        'title'      => __( 'Copyright', 'wp' ),
+        'priority'   => 30,
+    ) );
+
+    $wp_customize->add_setting( 'copyright_txt', array(
+        'default' => '2022 copyright',
+        'sanitize_callback' => 'sanitize_text_field',
+    ) );
+
+    $wp_customize->add_control( 'copyright_txt', array(
+        'type' => 'text',
+        'section' => 'copyright_txt_section', // Add a default or your own section
+        'label' => __( 'Copyright Text' ),
+        'description' => __( 'This is a custom text box for copyright.' ),
+    ) );
+
+} add_action( 'customize_register', 'mytheme_customize_register' );
