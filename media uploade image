@@ -1,0 +1,12 @@
+<?php
+
+// Register a custom menu page.
+function media_upload_settings_register(){
+    add_menu_page(
+		__( 'Media Upload', 'wp' ),
+		__( 'Media Upload', 'wp' ),
+		'manage_options',
+		'media_upload_setting_page',
+		'media_upload_setting_page'
+	);
+} add_action( 'admin_menu', 'media_upload_settings_register' );
