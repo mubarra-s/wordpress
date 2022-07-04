@@ -1,4 +1,4 @@
-```#VMF_CAROUSEL
+#VMF_CAROUSEL
 function VMF_CAROUSEL_ARR() { return array(
 	"element" => "",
 	"space" => "",
@@ -53,4 +53,4 @@ if(class_exists("WPBakeryShortCode")) { # WP Bakery Class Exists
 		) ); }
 		public function vc_vm_home_html( $atts ) { $VMF_CAROUSEL_ARR = VMF_CAROUSEL_ARR(); extract(  shortcode_atts( $VMF_CAROUSEL_ARR, $atts ) ); $html = do_shortcode("[VMF_CAROUSEL]"); return $html; } #Fill $html
 	} new VC_VMF_CAROUSEL(); #Element Class Init
-} # WP Bakery Class Exists``
+} # WP Bakery Class Exists
