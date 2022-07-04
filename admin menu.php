@@ -133,3 +133,23 @@ function generate_post_type_menu_page_init() {
         update_option("gpt_post_key", $gpt_post_key );
     }
 } add_Action("init", "generate_post_type_menu_page_init");
+
+
+
+
+   //[nbsp] shortcode
+function nbsp_shortcode( $atts, $content = null ) {
+$content = '&nbsp';
+return $content;
+}
+
+add_shortcode( 'nbsp', 'nbsp_shortcode' );
+
+
+
+
+
+
+
+
+
