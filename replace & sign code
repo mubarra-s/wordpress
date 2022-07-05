@@ -1,0 +1,5 @@
+var j = jQuery.noConflict();
+// Do something with jQuery
+j("div p").hide();
+// Do something with another library's $()
+$("content").style.display = 'none';
