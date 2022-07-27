@@ -1,0 +1,71 @@
+ </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            jQuery("#add_btn").click(function() {
+                var html = '';
+                html += '<div class="duplicate_content--item">';
+                    html += '<div class="duplicate_content--form">';
+                        html += '<div class="duplicate_content--field">';
+                            html += '<label>Field 1</label>';
+                            html += '<input type="text" class="duplicate_content--input" />';
+                        html += '</div>';
+                        html += '<div class="duplicate_content--field">';
+                            html += '<label>Field 2</label>';
+                            html += '<input type="text" class="duplicate_content--input" />';
+                        html += '</div>';
+                        html += '<div class="duplicate_content--field">';
+                            html += '<label>Field 3</label>';
+                            html += '<input type="text" class="duplicate_content--input" />';
+                        html += '</div>';
+                        html += '<div class="duplicate_content--field">';
+                            html += '<label>Field 4</label>';
+                            html += '<input type="text" class="duplicate_content--input" />';
+                        html += '</div>';
+                    html += '</div>';
+                html += '</div>';
+                html += '';
+                jQuery("#content").after(html);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div id="duplicate_content" class="duplicate_content">
+        <div class="duplicate_content--inner">
+            <div class="duplicate_content--wrap">
+                <div id="content" class="duplicate_content--grid">
+
+                    <div class="duplicate_content--item">
+                        <div class="duplicate_content--form">
+                            <div class="duplicate_content--field">
+                                <label>Field 1asdsadas</label>
+                                <input type="text" class="duplicate_content--input" />
+                            </div>
+                            <div class="duplicate_content--field">
+                                <label>Field 2</label>
+                                <input type="text" class="duplicate_content--input" />
+                            </div>
+                            <div class="duplicate_content--field">
+                                <label>Field 3</label>
+                                <input type="text" class="duplicate_content--input" />
+                            </div>
+                            <div class="duplicate_content--field">
+                                <label>Field 4</label>
+                                <input type="text" class="duplicate_content--input" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="add_btn" class="add-button">+</div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
