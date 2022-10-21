@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PlomX</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Desgin</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Web Design <br><span>Development</span></h1>
+            <p class="parra">The standard chunk of Lorem Ipsum used since the 1500s<br> is reproduced below for those interested.<br> Sections 1.10.32 and 1.10.33 from  </p>
+
+                <button class="new"><a href="#">Contact Us</a></button>
+
+                <div class="form">
+                    <h2>Login</h2>
+                    <input type="email" name="email" placeholder="Enter Email ">
+                    <input type="password" name="" placeholder="Enter Password ">
+                    <button class="btn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
