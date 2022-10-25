@@ -1,0 +1,12 @@
+action="#">
+         <div class="footer__subscribe-input mb-15">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">
+               <i class="far fa-arrow-right"></i>
+               <i class="far fa-arrow-right"></i>
+            </button>
+         </div>
+      </form>
+      <p>Get the latest news and updates right at your inbox.</p>
+   </div>
+</div>
